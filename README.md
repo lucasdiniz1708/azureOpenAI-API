@@ -17,11 +17,13 @@ Para a interação com o usuário, utilizamos o módulo `readline` do Node.js pa
 ## Instruções de Instalação e Configuração
 
 1. **Instalação de Dependências:**
-   - Antes de iniciar, instale as seguintes dependências no diretório do projeto:
+   - Antes de iniciar, faça o download do NodeJS e instale as seguintes dependências no diretório do projeto:
 
      ```bash
-     npm install dotenv --save        # Para utilizar o dotenv
-     npm install @azure/openai --save   # Para utilizar o azure openAI
+     node -v                           # Para testar se o node foi instalado com sucesso
+     npm init -y                      # Para inicializar o node
+     npm install dotenv --save        # Para instalar a dependencia dotenv
+     npm install @azure/openai --save   # Para instalar a dependencia azure/openai
      ```
 
 2. **Configuração do Arquivo .env:**
@@ -37,7 +39,15 @@ Para a interação com o usuário, utilizamos o módulo `readline` do Node.js pa
 
 3. **Ignorar Arquivos Sensíveis no Git:**
    - Adicione o arquivo `.env` ao `.gitignore` para garantir que não seja enviado ao repositório Git.
+  
+4. ** Testando o codigo **
+   -Para compilar o codigo basta chegar no diretório do projeto e utilizar os seguintes comandos:
+   
+       ```bash
+      node index.js              # Para interpretar o codigo.
+     ```
 
+     
 ## Referências
 - [Documentação oficial do SDK Azure para JavaScript - OpenAI](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/openai/openai/README.md)
 - [Documentação da API do Azure para JavaScript - @azure/openai](https://learn.microsoft.com/pt-br/javascript/api/%40azure/openai/?view=azure-node-preview)
