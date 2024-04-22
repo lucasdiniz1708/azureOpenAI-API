@@ -42,12 +42,12 @@ Para a interação com o usuário, utilizamos o módulo `readline` do Node.js pa
   
 4. ** Testando o codigo **
    -Para compilar o codigo basta chegar no diretório do projeto e utilizar os seguintes comandos:
-   
-       ```bash
-      node index.js              # Para interpretar o codigo.
-     ```
 
+    ```bash
+     node index.js                         # Para executar o codigo
      
+     ```
+    
 ## Referências
 - [Documentação oficial do SDK Azure para JavaScript - OpenAI](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/openai/openai/README.md)
 - [Documentação da API do Azure para JavaScript - @azure/openai](https://learn.microsoft.com/pt-br/javascript/api/%40azure/openai/?view=azure-node-preview)
