@@ -40,7 +40,7 @@ Para a interação com o usuário, utilizamos o módulo `readline` do Node.js pa
 3. **Ignorar Arquivos Sensíveis no Git:**
    - Adicione o arquivo `.env` ao `.gitignore` para garantir que não seja enviado ao repositório Git.
   
-4. ** Testando o codigo **
+4. **Testando o codigo:**
    -Para compilar o codigo basta chegar no diretório do projeto e utilizar os seguintes comandos:
 
     ```bash
